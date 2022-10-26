@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.login {
+  width: 350px;
+  margin: 100px auto;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+p.error {
+  background-color: #B00020;
+  font-size: 12px;
+  padding: 10px;
+  color: white;
+}
+
+p.info {
+  background-color: #42ba96;
+  font-size: 12px;
+  padding: 10px;
+  color: white;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;  
+}
+
+/* button:hover{
+  background-color: #24a0ed;
+  color: white;
+  font-weight: bold;
+  box-sizing: border-box;
+  border-color: #24a0ed;
+} */
+
+header {
+  background-color: #eee;
+  overflow: auto;
+  padding: 10px;
+
+}
+
+header .appname {
+  float: left;
+}
+
+header .loggedin {
+  float: right;
+}
+
+main {
+  width: 1000px;
+  margin: 30px auto;
+}
+
+main h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+main h1 span {
+  font-size: 20px;
+}
+
+table.masterlist {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.masterlist th {
+  background: #aaa;
+  text-align: left;
+}
+
+table.masterlist th, table.masterlist td {
+  padding: 10px;
+  border-bottom: 1px solid #aaa;
+}
+
+form.userform label {
+  width: 30%;
+  float: left;
+}
+
+form.userform input {
+  width: 60%;  
+}
+
+form.userform button {
+  width: 200px;
+}
+
+.errmsg {
+  margin: 20px 0;
+}
+
+div.errmsg {
+  color: red;
+}
